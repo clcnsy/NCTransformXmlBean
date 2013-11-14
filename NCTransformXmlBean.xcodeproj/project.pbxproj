@@ -10,23 +10,15 @@
 		FC13631D183534A4007198E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13631C183534A4007198E2 /* Foundation.framework */; };
 		FC136322183534A4007198E2 /* NCTransformXmlBean.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC136321183534A4007198E2 /* NCTransformXmlBean.h */; };
 		FC136324183534A4007198E2 /* NCTransformXmlBean.m in Sources */ = {isa = PBXBuildFile; fileRef = FC136323183534A4007198E2 /* NCTransformXmlBean.m */; };
-		FC13632B183534A4007198E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13632A183534A4007198E2 /* XCTest.framework */; };
-		FC13632C183534A4007198E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13631C183534A4007198E2 /* Foundation.framework */; };
-		FC13632E183534A4007198E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13632D183534A4007198E2 /* UIKit.framework */; };
-		FC136331183534A4007198E2 /* libNCTransformXmlBean.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC136319183534A4007198E2 /* libNCTransformXmlBean.a */; };
-		FC136337183534A4007198E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC136335183534A4007198E2 /* InfoPlist.strings */; };
-		FC136339183534A4007198E2 /* NCTransformXmlBeanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC136338183534A4007198E2 /* NCTransformXmlBeanTests.m */; };
+		FC136349183535AA007198E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13631C183534A4007198E2 /* Foundation.framework */; };
+		FC13634B183535AA007198E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13634A183535AA007198E2 /* CoreGraphics.framework */; };
+		FC13634C183535AA007198E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13632D183534A4007198E2 /* UIKit.framework */; };
+		FC136352183535AA007198E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC136350183535AA007198E2 /* InfoPlist.strings */; };
+		FC136354183535AA007198E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC136353183535AA007198E2 /* main.m */; };
+		FC13635A183535AA007198E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC136359183535AA007198E2 /* Images.xcassets */; };
+		FC136376183535DE007198E2 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC136375183535DE007198E2 /* GHUnitIOS.framework */; };
+		FC1363791835367B007198E2 /* NCXmlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1363781835367B007198E2 /* NCXmlTest.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FC13632F183534A4007198E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC136311183534A4007198E2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC136318183534A4007198E2;
-			remoteInfo = NCTransformXmlBean;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FC136317183534A4007198E2 /* CopyFiles */ = {
@@ -47,12 +39,18 @@
 		FC136320183534A4007198E2 /* NCTransformXmlBean-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NCTransformXmlBean-Prefix.pch"; sourceTree = "<group>"; };
 		FC136321183534A4007198E2 /* NCTransformXmlBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCTransformXmlBean.h; sourceTree = "<group>"; };
 		FC136323183534A4007198E2 /* NCTransformXmlBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCTransformXmlBean.m; sourceTree = "<group>"; };
-		FC136329183534A4007198E2 /* NCTransformXmlBeanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCTransformXmlBeanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC13632A183534A4007198E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FC13632D183534A4007198E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FC136334183534A4007198E2 /* NCTransformXmlBeanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCTransformXmlBeanTests-Info.plist"; sourceTree = "<group>"; };
-		FC136336183534A4007198E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC136338183534A4007198E2 /* NCTransformXmlBeanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCTransformXmlBeanTests.m; sourceTree = "<group>"; };
+		FC136348183535AA007198E2 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC13634A183535AA007198E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC13634F183535AA007198E2 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		FC136351183535AA007198E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC136353183535AA007198E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC136355183535AA007198E2 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		FC136359183535AA007198E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC136375183535DE007198E2 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		FC1363771835367B007198E2 /* NCXmlTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCXmlTest.h; sourceTree = "<group>"; };
+		FC1363781835367B007198E2 /* NCXmlTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCXmlTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +62,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC136326183534A4007198E2 /* Frameworks */ = {
+		FC136345183535AA007198E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC13632B183534A4007198E2 /* XCTest.framework in Frameworks */,
-				FC136331183534A4007198E2 /* libNCTransformXmlBean.a in Frameworks */,
-				FC13632E183534A4007198E2 /* UIKit.framework in Frameworks */,
-				FC13632C183534A4007198E2 /* Foundation.framework in Frameworks */,
+				FC13634B183535AA007198E2 /* CoreGraphics.framework in Frameworks */,
+				FC136376183535DE007198E2 /* GHUnitIOS.framework in Frameworks */,
+				FC13634C183535AA007198E2 /* UIKit.framework in Frameworks */,
+				FC136349183535AA007198E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FC13631E183534A4007198E2 /* NCTransformXmlBean */,
-				FC136332183534A4007198E2 /* NCTransformXmlBeanTests */,
+				FC13634D183535AA007198E2 /* Tests */,
 				FC13631B183534A4007198E2 /* Frameworks */,
 				FC13631A183534A4007198E2 /* Products */,
 			);
@@ -92,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				FC136319183534A4007198E2 /* libNCTransformXmlBean.a */,
-				FC136329183534A4007198E2 /* NCTransformXmlBeanTests.xctest */,
+				FC136348183535AA007198E2 /* Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +98,11 @@
 		FC13631B183534A4007198E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC136375183535DE007198E2 /* GHUnitIOS.framework */,
 				FC13631C183534A4007198E2 /* Foundation.framework */,
 				FC13632A183534A4007198E2 /* XCTest.framework */,
 				FC13632D183534A4007198E2 /* UIKit.framework */,
+				FC13634A183535AA007198E2 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,20 +125,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC136332183534A4007198E2 /* NCTransformXmlBeanTests */ = {
+		FC13634D183535AA007198E2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FC136338183534A4007198E2 /* NCTransformXmlBeanTests.m */,
-				FC136333183534A4007198E2 /* Supporting Files */,
+				FC136359183535AA007198E2 /* Images.xcassets */,
+				FC13634E183535AA007198E2 /* Supporting Files */,
+				FC1363771835367B007198E2 /* NCXmlTest.h */,
+				FC1363781835367B007198E2 /* NCXmlTest.m */,
 			);
-			path = NCTransformXmlBeanTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		FC136333183534A4007198E2 /* Supporting Files */ = {
+		FC13634E183535AA007198E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC136334183534A4007198E2 /* NCTransformXmlBeanTests-Info.plist */,
-				FC136335183534A4007198E2 /* InfoPlist.strings */,
+				FC13634F183535AA007198E2 /* Tests-Info.plist */,
+				FC136350183535AA007198E2 /* InfoPlist.strings */,
+				FC136353183535AA007198E2 /* main.m */,
+				FC136355183535AA007198E2 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,23 +167,22 @@
 			productReference = FC136319183534A4007198E2 /* libNCTransformXmlBean.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FC136328183534A4007198E2 /* NCTransformXmlBeanTests */ = {
+		FC136347183535AA007198E2 /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC13633F183534A4007198E2 /* Build configuration list for PBXNativeTarget "NCTransformXmlBeanTests" */;
+			buildConfigurationList = FC13636D183535AA007198E2 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				FC136325183534A4007198E2 /* Sources */,
-				FC136326183534A4007198E2 /* Frameworks */,
-				FC136327183534A4007198E2 /* Resources */,
+				FC136344183535AA007198E2 /* Sources */,
+				FC136345183535AA007198E2 /* Frameworks */,
+				FC136346183535AA007198E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC136330183534A4007198E2 /* PBXTargetDependency */,
 			);
-			name = NCTransformXmlBeanTests;
-			productName = NCTransformXmlBeanTests;
-			productReference = FC136329183534A4007198E2 /* NCTransformXmlBeanTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = Tests;
+			productName = Tests;
+			productReference = FC136348183535AA007198E2 /* Tests.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,17 +206,18 @@
 			projectRoot = "";
 			targets = (
 				FC136318183534A4007198E2 /* NCTransformXmlBean */,
-				FC136328183534A4007198E2 /* NCTransformXmlBeanTests */,
+				FC136347183535AA007198E2 /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC136327183534A4007198E2 /* Resources */ = {
+		FC136346183535AA007198E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC136337183534A4007198E2 /* InfoPlist.strings in Resources */,
+				FC136352183535AA007198E2 /* InfoPlist.strings in Resources */,
+				FC13635A183535AA007198E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,29 +232,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC136325183534A4007198E2 /* Sources */ = {
+		FC136344183535AA007198E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC136339183534A4007198E2 /* NCTransformXmlBeanTests.m in Sources */,
+				FC1363791835367B007198E2 /* NCXmlTest.m in Sources */,
+				FC136354183535AA007198E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FC136330183534A4007198E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC136318183534A4007198E2 /* NCTransformXmlBean */;
-			targetProxy = FC13632F183534A4007198E2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		FC136335183534A4007198E2 /* InfoPlist.strings */ = {
+		FC136350183535AA007198E2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC136336183534A4007198E2 /* en */,
+				FC136351183535AA007198E2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -290,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -322,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -332,6 +329,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/NCTransformXmlBean.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/clcnsy/Desktop/iPhone/NCTransformXmlBean,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -344,6 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/NCTransformXmlBean.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/clcnsy/Desktop/iPhone/NCTransformXmlBean,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -352,41 +357,55 @@
 			};
 			name = Release;
 		};
-		FC136340183534A4007198E2 /* Debug */ = {
+		FC13636E183535AA007198E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/clcnsy/Desktop/iPhone/NCTransformXmlBean,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NCTransformXmlBeanTests/NCTransformXmlBeanTests-Info.plist";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		FC136341183534A4007198E2 /* Release */ = {
+		FC13636F183535AA007198E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/clcnsy/Desktop/iPhone/NCTransformXmlBean,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
-				INFOPLIST_FILE = "NCTransformXmlBeanTests/NCTransformXmlBeanTests-Info.plist";
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -410,11 +429,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		FC13633F183534A4007198E2 /* Build configuration list for PBXNativeTarget "NCTransformXmlBeanTests" */ = {
+		FC13636D183535AA007198E2 /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC136340183534A4007198E2 /* Debug */,
-				FC136341183534A4007198E2 /* Release */,
+				FC13636E183535AA007198E2 /* Debug */,
+				FC13636F183535AA007198E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
