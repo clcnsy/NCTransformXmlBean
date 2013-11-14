@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC13631D183534A4007198E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13631C183534A4007198E2 /* Foundation.framework */; };
+		FC136322183534A4007198E2 /* NCTransformXmlBean.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC136321183534A4007198E2 /* NCTransformXmlBean.h */; };
+		FC136324183534A4007198E2 /* NCTransformXmlBean.m in Sources */ = {isa = PBXBuildFile; fileRef = FC136323183534A4007198E2 /* NCTransformXmlBean.m */; };
+		FC13632B183534A4007198E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13632A183534A4007198E2 /* XCTest.framework */; };
+		FC13632C183534A4007198E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13631C183534A4007198E2 /* Foundation.framework */; };
+		FC13632E183534A4007198E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC13632D183534A4007198E2 /* UIKit.framework */; };
+		FC136331183534A4007198E2 /* libNCTransformXmlBean.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC136319183534A4007198E2 /* libNCTransformXmlBean.a */; };
+		FC136337183534A4007198E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC136335183534A4007198E2 /* InfoPlist.strings */; };
+		FC136339183534A4007198E2 /* NCTransformXmlBeanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC136338183534A4007198E2 /* NCTransformXmlBeanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC13632F183534A4007198E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC136311183534A4007198E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC136318183534A4007198E2;
+			remoteInfo = NCTransformXmlBean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC136317183534A4007198E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FC136322183534A4007198E2 /* NCTransformXmlBean.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC136319183534A4007198E2 /* libNCTransformXmlBean.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNCTransformXmlBean.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC13631C183534A4007198E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC136320183534A4007198E2 /* NCTransformXmlBean-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NCTransformXmlBean-Prefix.pch"; sourceTree = "<group>"; };
+		FC136321183534A4007198E2 /* NCTransformXmlBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCTransformXmlBean.h; sourceTree = "<group>"; };
+		FC136323183534A4007198E2 /* NCTransformXmlBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCTransformXmlBean.m; sourceTree = "<group>"; };
+		FC136329183534A4007198E2 /* NCTransformXmlBeanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCTransformXmlBeanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC13632A183534A4007198E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC13632D183534A4007198E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC136334183534A4007198E2 /* NCTransformXmlBeanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCTransformXmlBeanTests-Info.plist"; sourceTree = "<group>"; };
+		FC136336183534A4007198E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC136338183534A4007198E2 /* NCTransformXmlBeanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCTransformXmlBeanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC136316183534A4007198E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC13631D183534A4007198E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC136326183534A4007198E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC13632B183534A4007198E2 /* XCTest.framework in Frameworks */,
+				FC136331183534A4007198E2 /* libNCTransformXmlBean.a in Frameworks */,
+				FC13632E183534A4007198E2 /* UIKit.framework in Frameworks */,
+				FC13632C183534A4007198E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC136310183534A4007198E2 = {
+			isa = PBXGroup;
+			children = (
+				FC13631E183534A4007198E2 /* NCTransformXmlBean */,
+				FC136332183534A4007198E2 /* NCTransformXmlBeanTests */,
+				FC13631B183534A4007198E2 /* Frameworks */,
+				FC13631A183534A4007198E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC13631A183534A4007198E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC136319183534A4007198E2 /* libNCTransformXmlBean.a */,
+				FC136329183534A4007198E2 /* NCTransformXmlBeanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC13631B183534A4007198E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC13631C183534A4007198E2 /* Foundation.framework */,
+				FC13632A183534A4007198E2 /* XCTest.framework */,
+				FC13632D183534A4007198E2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC13631E183534A4007198E2 /* NCTransformXmlBean */ = {
+			isa = PBXGroup;
+			children = (
+				FC136321183534A4007198E2 /* NCTransformXmlBean.h */,
+				FC136323183534A4007198E2 /* NCTransformXmlBean.m */,
+				FC13631F183534A4007198E2 /* Supporting Files */,
+			);
+			path = NCTransformXmlBean;
+			sourceTree = "<group>";
+		};
+		FC13631F183534A4007198E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC136320183534A4007198E2 /* NCTransformXmlBean-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC136332183534A4007198E2 /* NCTransformXmlBeanTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC136338183534A4007198E2 /* NCTransformXmlBeanTests.m */,
+				FC136333183534A4007198E2 /* Supporting Files */,
+			);
+			path = NCTransformXmlBeanTests;
+			sourceTree = "<group>";
+		};
+		FC136333183534A4007198E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC136334183534A4007198E2 /* NCTransformXmlBeanTests-Info.plist */,
+				FC136335183534A4007198E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC136318183534A4007198E2 /* NCTransformXmlBean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC13633C183534A4007198E2 /* Build configuration list for PBXNativeTarget "NCTransformXmlBean" */;
+			buildPhases = (
+				FC136315183534A4007198E2 /* Sources */,
+				FC136316183534A4007198E2 /* Frameworks */,
+				FC136317183534A4007198E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCTransformXmlBean;
+			productName = NCTransformXmlBean;
+			productReference = FC136319183534A4007198E2 /* libNCTransformXmlBean.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC136328183534A4007198E2 /* NCTransformXmlBeanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC13633F183534A4007198E2 /* Build configuration list for PBXNativeTarget "NCTransformXmlBeanTests" */;
+			buildPhases = (
+				FC136325183534A4007198E2 /* Sources */,
+				FC136326183534A4007198E2 /* Frameworks */,
+				FC136327183534A4007198E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC136330183534A4007198E2 /* PBXTargetDependency */,
+			);
+			name = NCTransformXmlBeanTests;
+			productName = NCTransformXmlBeanTests;
+			productReference = FC136329183534A4007198E2 /* NCTransformXmlBeanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC136311183534A4007198E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Nan.Chen;
+			};
+			buildConfigurationList = FC136314183534A4007198E2 /* Build configuration list for PBXProject "NCTransformXmlBean" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC136310183534A4007198E2;
+			productRefGroup = FC13631A183534A4007198E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC136318183534A4007198E2 /* NCTransformXmlBean */,
+				FC136328183534A4007198E2 /* NCTransformXmlBeanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC136327183534A4007198E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC136337183534A4007198E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC136315183534A4007198E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC136324183534A4007198E2 /* NCTransformXmlBean.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC136325183534A4007198E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC136339183534A4007198E2 /* NCTransformXmlBeanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC136330183534A4007198E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC136318183534A4007198E2 /* NCTransformXmlBean */;
+			targetProxy = FC13632F183534A4007198E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC136335183534A4007198E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC136336183534A4007198E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC13633A183534A4007198E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC13633B183534A4007198E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC13633D183534A4007198E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NCTransformXmlBean.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC13633E183534A4007198E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NCTransformXmlBean.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC136340183534A4007198E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NCTransformXmlBeanTests/NCTransformXmlBeanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC136341183534A4007198E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCTransformXmlBean/NCTransformXmlBean-Prefix.pch";
+				INFOPLIST_FILE = "NCTransformXmlBeanTests/NCTransformXmlBeanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC136314183534A4007198E2 /* Build configuration list for PBXProject "NCTransformXmlBean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC13633A183534A4007198E2 /* Debug */,
+				FC13633B183534A4007198E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC13633C183534A4007198E2 /* Build configuration list for PBXNativeTarget "NCTransformXmlBean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC13633D183534A4007198E2 /* Debug */,
+				FC13633E183534A4007198E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC13633F183534A4007198E2 /* Build configuration list for PBXNativeTarget "NCTransformXmlBeanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC136340183534A4007198E2 /* Debug */,
+				FC136341183534A4007198E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC136311183534A4007198E2 /* Project object */;
+}
